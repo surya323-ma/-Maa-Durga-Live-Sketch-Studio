@@ -3,7 +3,9 @@
 Watch Maa Durga artwork draw itself **live** – first as a pencil sketch, then filled with colour, then inked.
 Built with **Python, Turtle, OpenCV and Tkinter**. Three artworks are built into the single `durga.py` file, so **no image download is needed**.
 
-![Face demo](assets/demo-face.gif)
+<p align="center">
+  <img src="demo-face.gif" alt="Durga face drawing live" width="420">
+</p>
 
 ## ✨ Features
 
@@ -17,19 +19,29 @@ Built with **Python, Turtle, OpenCV and Tkinter**. Three artworks are built into
 
 ## 🖼️ Gallery
 
-| Face (pencil + colour) | Lion (pencil drawing) | Silhouette |
-|---|---|---|
-| ![face](assets/demo-face.gif) | ![lion](assets/demo-lion.gif) | ![silhouette](assets/demo-silhouette.gif) |
+**Durga on Lion – pencil drawing**
 
-Colour themes on the same drawing:
+<p align="center">
+  <img src="demo-lion.gif" alt="Durga on lion drawing live" width="420">
+</p>
 
-![Colour themes](assets/colour-themes.png)
+**Durga & Mahishasura – silhouette**
+
+<p align="center">
+  <img src="demo-silhouette.gif" alt="Silhouette drawing live" width="420">
+</p>
+
+**Colour themes on the same drawing**
+
+<p align="center">
+  <img src="colour-themes.png" alt="Colour themes" width="800">
+</p>
 
 ## 🚀 Quick start
 
 ```bash
-git clone https://github.com/Gracyclub/Durga-Maa-Python-sketch.git
-cd Durga-Maa-Python-sketch
+git clone https://github.com/surya323-ma/Maa-Durga-Live-Sketch-Studio.git
+cd Maa-Durga-Live-Sketch-Studio
 pip install -r requirements.txt
 python durga.py
 ```
@@ -89,13 +101,18 @@ python durga.py --export-images                   # save durga.jpg, face.png, li
 ## 📁 Project structure
 
 ```
-Durga-Maa-Python-sketch/
-├── durga.py            # the whole app (code + built-in artwork)
-├── requirements.txt    # opencv-python, numpy
-├── LICENSE
+Maa-Durga-Live-Sketch-Studio/
+├── durga.py                # the whole app (code + built-in artwork)
+├── requirements.txt        # opencv-python, numpy
 ├── README.md
-└── assets/             # demo GIFs and images used in this README
+├── LICENSE
+├── demo-face.gif           # images shown in this README
+├── demo-lion.gif
+├── demo-silhouette.gif
+└── colour-themes.png
 ```
+
+> The four images must sit in the **same folder as README.md** (the repo root) for them to show on GitHub.
 
 ## 🙏 Credits
 
